@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  font-family: Hanken Grotesk, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 0;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header__navigate {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+}
+
+.header__navigate a {
+  color: #83888f;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+}
