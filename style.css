@@ -29,3 +29,53 @@ body {
   line-height: 15px;
   text-decoration: none;
 }
+
+.hero {
+  background: url("./public/home/desktop/image-hero-coffeepress.jpg") no-repeat
+    center center;
+  background-size: cover;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 86px;
+  margin: auto;
+  max-width: 1280px;
+  height: 600px;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  max-width: 530px;
+  font-family: "Fraunces", sans-serif;
+  color: #fefcf7;
+}
+
+.hero__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 445px;
+  margin-top: 32px;
+  font-family: "Barlow";
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.hero__navigate {
+  background: #0e8784;
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 16px 31px;
+  text-decoration: none;
+  font-family: "Fraunces";
+  margin-top: 56px;
+  width: fit-content;
+  color: #fefcf7;
+}
