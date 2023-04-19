@@ -79,3 +79,76 @@ body {
   width: fit-content;
   color: #fefcf7;
 }
+
+.collection {
+  max-width: 1280px;
+  margin: auto;
+  background: url("./public/home/desktop/");
+  margin-top: 222px;
+}
+
+.collection__background {
+  position: absolute;
+  text-align: center;
+  height: 196px;
+  margin-top: -53px;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.collection__background__offset {
+  display: inline-block;
+  height: 196px;
+  width: 100%;
+  z-index: 10;
+  margin-top: -97px;
+  background: linear-gradient(180deg, rgb(241 241 241 / 86%) 0%, #fefcf7 100%);
+}
+
+.collection__background__title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  height: 72px;
+  z-index: -1;
+  color: transparent;
+  -webkit-text-stroke: 3px #83888f;
+}
+
+.collection__list {
+  display: flex;
+  list-style: none;
+}
+
+.collection__list li {
+  text-align: center;
+}
+
+.collection__list li strong {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+
+  color: #333d4b;
+}
+
+.collection__list li p {
+  font-family: "Barlow";
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #333d4b;
+}
+.collection__list img {
+  width: 255px;
+}
