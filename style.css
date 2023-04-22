@@ -136,12 +136,11 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 70px;
-
   color: #333d4b;
 }
 
 .collection__list li p {
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   margin-top: 25px;
   font-weight: 400;
   font-size: 16px;
@@ -151,4 +150,85 @@ body {
 }
 .collection__list img {
   width: 255px;
+}
+
+.benefits {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  height: 577px;
+  margin-top: 180px;
+
+  background: #2c343e;
+
+  border-radius: 10px;
+}
+
+.benefits__list {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 30px;
+  margin-top: 86px;
+  list-style: none;
+}
+
+.benefits__title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 112px;
+
+  color: #fefcf7;
+}
+
+.benefits__description {
+  max-width: 540px;
+
+  font-family: "Barlow", sans-serif;
+  background-color: #83888f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 32px;
+}
+.benefits__list__quality {
+  width: 350px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+  padding: 72px 48px 48px 48px;
+}
+
+.benefits__list__quality h3 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+  margin-top: 56px;
+}
+.benefits__list__quality p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 24px;
+
+  color: #fefcf7;
+}
+.benefits__list__quality img {
+  margin: auto;
+  width: 71px;
+  height: 72px;
+  object-fit: contain;
 }
