@@ -1,0 +1,33 @@
+.hero {
+  background: url(./public/about/desktop/image-hero-whitecup.jpg) no-repeat
+    center center;
+  background-size: cover;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 86px;
+  margin: auto;
+  max-width: 1280px;
+  height: 450px;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 72px;
+  max-width: 188px;
+  font-family: "Fraunces", sans-serif;
+  color: #fefcf7;
+}
+.hero__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 445px;
+  margin-top: 24px;
+  font-family: "Barlow", sans-serif;
+  color: #fefcf7;
+  align-items: center;
+}
