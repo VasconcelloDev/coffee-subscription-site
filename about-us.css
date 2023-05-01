@@ -71,3 +71,48 @@
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
+.quality {
+  background: #2c343e;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+  height: 474px;
+  padding-top: 100px;
+
+  margin-top: 244px;
+  max-width: 1280px;
+}
+
+.quality__container {
+  max-width: 540px;
+  margin: 0px 90px;
+}
+
+.quality__title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #fefcf7;
+}
+.quality__description {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.quality__image {
+  margin-top: -160px;
+  width: 445px;
+  height: 474px;
+  background: #0e8784;
+  border-radius: 8px;
+}
