@@ -139,3 +139,73 @@
   line-height: 32px;
   color: #333d4b;
 }
+
+.preferences__list {
+  list-style: none;
+  display: flex;
+  gap: 88px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.preferences__list li h2 {
+  color: #83888f;
+  font-size: 40px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.preferences__list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 135px;
+
+  align-items: flex-end;
+}
+
+.summary__card {
+  width: 820px;
+  height: 208px;
+  border-radius: 10px;
+  background: #2c343e;
+  display: flex;
+  padding: 51px 64px;
+  flex-direction: column;
+}
+
+.summary__card span {
+  color: #fff;
+  font-size: 16px;
+  font-family: "barlow", sans-serif;
+  line-height: 26px;
+}
+
+.summary__card strong {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  line-height: 40px;
+}
+.summary__navigate {
+  text-decoration: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  background-color: #e2dedb;
+  width: fit-content;
+  margin-top: 45px;
+  color: #fefcf7;
+  border-radius: 6px;
+  font-family: "Fraunces", sans-serif 9pt;
+}
